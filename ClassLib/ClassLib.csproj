@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+    Using version 2.18+ results in an error on startup:
+    System.TypeLoadException: Could not load type 'WebMarkupMin.AspNet.Common.Compressors.CommonCompressionSettingsBase'
+    from assembly 'WebMarkupMin.AspNet.Common, Version=2.18.0.0, Culture=neutral, PublicKeyToken=99472178d266584b'.
+    -->
+<!--    <PackageReference Include="WebMarkupMin.AspNetCore8" Version="2.18.1" />-->
+    <PackageReference Include="WebMarkupMin.AspNetCore8" Version="2.17.0" />
+  </ItemGroup>
+
+</Project>
