@@ -1,6 +1,6 @@
 # README
 
-This repository functions to reproduce an error on startup with WebMarkupMin 2.18+, specifically when the WebMarkupMin NuGet package is consumed from a .NET 8 classlib, which is in turn consumed by a .NET 8 project.
+This repository functions to reproduce an error on startup with WebMarkupMin 2.18+, specifically when the WebMarkupMin NuGet package is referenced from a .NET 8 classlib, which is in turn consumed by a .NET 9 project.
 
 ## Steps to reproduce
 
