@@ -2,8 +2,7 @@ using System.IO.Compression;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using WebMarkupMin.AspNet.Common.Compressors;
-using WebMarkupMin.AspNetCore8;
-// using WebMarkupMin.AspNetCoreLatest; // Replace above using statement with this one for WebMarkupMin 2.18+
+using WebMarkupMin.AspNetCoreLatest;
 
 namespace ClassLib.DependencyInjection;
 
