@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Builder;
-using WebMarkupMin.AspNetCore8;
+using WebMarkupMin.AspNetCoreLatest;
 
 namespace ClassLib.DependencyInjection;
 
